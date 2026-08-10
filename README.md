@@ -1,26 +1,43 @@
 # TiktokAutoUploader v2.0
 
-Fastest TikTok AutoUploader using Requests, not ~~Selenium~~
-
-Automatically uploads to TikTok with 1 command and within 3 seconds.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/michael-p-88b015200/)
-[![HitCount](https://hits.dwyl.com/makiisthenes/TiktokAutoUploader.svg?style=flat)](http://hits.dwyl.com/makiisthenes/https://githubcom/makiisthenes/TiktokAutoUploader)
-![Forks](https://img.shields.io/github/forks/makiisthenes/TiktokAutoUploader)
-![Stars](https://img.shields.io/github/stars/makiisthenes/TiktokAutoUploader)
-
 <p align="center">
-<image src="https://user-images.githubusercontent.com/52138450/111885490-04ab6680-89c0-11eb-955a-f833577b4406.png" width="35%">
-</p>
-<p align="center">
-  <img alt="Forks" src="https://img.shields.io/github/forks/makiisthenes/TiktokAutoUploader" />
-  <img alt="Stars" src="https://img.shields.io/github/stars/makiisthenes/TiktokAutoUploader" />
-  <img alt="Watchers" src="https://img.shields.io/github/watchers/makiisthenes/TiktokAutoUploader" />
+  <img src="https://user-images.githubusercontent.com/52138450/111885490-04ab6680-89c0-11eb-955a-f833577b4406.png" width="35%" alt="TiktokAutoUploader logo">
 </p>
 
-<p align="center">The <strong>Fastest</strong> Known <strong>TikTok Auto Video Uploader</strong> with requests not Selenium!</p>
+<p align="center">The <strong>Fastest</strong> Known <strong>TikTok Auto Video Uploader</strong> — using Requests, not <s>Selenium</s>.</p>
+<p align="center">Automatically uploads to TikTok with 1 command and within 3 seconds.</p>
 
---------------------------------------
+<p align="center">
+  <a href="https://www.linkedin.com/in/michael-p-88b015200/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <img alt="Forks" src="https://img.shields.io/github/forks/makiisthenes/TiktokAutoUploader">
+  <img alt="Stars" src="https://img.shields.io/github/stars/makiisthenes/TiktokAutoUploader">
+  <img alt="Watchers" src="https://img.shields.io/github/watchers/makiisthenes/TiktokAutoUploader">
+  <a href="http://hits.dwyl.com/makiisthenes/TiktokAutoUploader"><img alt="HitCount" src="https://hits.dwyl.com/makiisthenes/TiktokAutoUploader.svg?style=flat"></a>
+</p>
+
+---
+
+## Sponsors
+
+<p align="center">
+  <a href="https://www.swiftproxy.net/?ref=makiisthenes">
+    <img src="https://github.com/user-attachments/assets/a1d0e915-e09a-4b36-ba72-788c4cc1e709" alt="Swiftproxy — 90M+ residential proxies" width="420">
+  </a>
+</p>
+
+[**Swiftproxy**](https://www.swiftproxy.net/?ref=makiisthenes) provides 90M+ clean residential and static residential proxies designed for social media automation, multi-account management, and web automation workflows. With stable connections, global IP coverage, and reliable proxy infrastructure, Swiftproxy helps users manage multiple accounts securely, reduce IP-related restrictions, and scale their automation tasks. Residential proxy traffic never expires until used, and free testing is available.
+
+> **Get 10% off** with code `PROXY90` — [Get proxies from Swiftproxy →](https://www.swiftproxy.net/?ref=makiisthenes)
+
+<p align="center">
+  <a href="https://termius.com/">
+    <img src="termius-logo-1084-black.png" alt="Termius" width="240">
+  </a>
+</p>
+
+[**Termius**](https://termius.com/) provides a secure, reliable, and collaborative SSH client.
+
+---
 
 ## Features
 
@@ -30,7 +47,7 @@ Automatically uploads to TikTok with 1 command and within 3 seconds.
 - Schedule videos up to 10 days in the future
 - Upload your own videos or use YouTube short links (auto-downloaded via [yt-dlp](https://github.com/yt-dlp/yt-dlp))
 
---------------------------------------
+---
 
 ## Prerequisites
 
@@ -44,7 +61,7 @@ Before you begin, make sure you have the following installed on your system:
 | **Google Chrome** | Any recent | `google-chrome --version` | [google.com/chrome](https://www.google.com/chrome/) |
 | **pip** | Any recent | `pip --version` | Bundled with Python |
 
---------------------------------------
+---
 
 ## Installation
 
@@ -58,6 +75,7 @@ chmod +x setup.sh
 ```
 
 The setup script handles everything automatically:
+
 1. Installs Python dependencies
 2. Installs Node.js packages for TikTok signature generation
 3. Downloads the Playwright Chromium browser binary
@@ -105,7 +123,7 @@ mkdir -p CookiesDir VideosDirPath output
 cp .env.example .env
 ```
 
---------------------------------------
+---
 
 ## Usage
 
@@ -174,7 +192,7 @@ python3 cli.py upload -h
 python3 cli.py show -h
 ```
 
---------------------------------------
+---
 
 ## Configuration
 
@@ -193,7 +211,7 @@ Settings are stored in `config.txt` at the project root:
 
 The `.env` file stores the TikTok login URL and is created from `.env.example` during setup.
 
---------------------------------------
+---
 
 ## Project Structure
 
@@ -221,7 +239,7 @@ TiktokAutoUploader/
         └── package.json
 ```
 
---------------------------------------
+---
 
 ## Troubleshooting
 
@@ -251,7 +269,7 @@ If yt-dlp warns about a missing JavaScript runtime, install [Deno](https://deno.
 
 Make sure Google Chrome is up to date. The app uses `undetected-chromedriver` which patches ChromeDriver to match your installed Chrome version.
 
---------------------------------------
+---
 
 ## Demo
 
@@ -262,7 +280,7 @@ Video showcases main usage of the app, uploading a video to TikTok.
   </video>
 </p>
 
---------------------------------------
+---
 
 ## Professional Software
 
@@ -281,17 +299,9 @@ If you are looking for something more, which can get you faster to your goal, I 
 
 Available for purchase, if interested please email me at `michaelperes562@gmail.com` with subject line `Tiktok Bot Software` or else I might miss the email.
 
-------
-#### Current Sponsors
+---
 
-<a href="https://termius.com/" target="_blank">
-  <img src="termius-logo-1084-black.png" alt="Termius" width="300">
-</a>
-
-<a href="https://termius.com/">Termius</a> provides a secure, reliable, and collaborative SSH client.
-
-
-### Support this project
+## Support This Project
 
 If you like the work provided, please consider supporting me through the available links for [Patreon](https://patreon.com/makiisthenes) and [Ko-Fi](https://ko-fi.com/makiperes).
 
@@ -301,27 +311,27 @@ Alternatively consider starring the project, or giving me a follow ;)
 
 - Thanks [@DelvinBa](https://github.com/DelvinBa) for updating to TikTok's new upload endpoint. (09/12/2024)
 
-----
+---
 
-### Bugs and Issues
+## Bugs and Issues
 
 If you find any bugs or issues, please add to the issues tab, please do not email me relating to this, I will see on issues.
 
-------
+---
 
-### Old Branch
+## Old Branch
 
 If you would like to continue to use the library based uploader, please forward to old branch namely `old`.
 
 This still relies on Selenium which is slow and unreliable.
 
-----
+---
 
-### Notes and Terms
+## Notes and Terms
 
 I am not responsible for any effects to your account, usage of such tools may ban your account. Please use at your own risk.
 
-----
+---
 
 ## Star History
 
