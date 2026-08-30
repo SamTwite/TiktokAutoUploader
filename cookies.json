@@ -1,0 +1,1 @@
+[{"domain": ".tiktok.com", "expiry": 1803598498, "httpOnly": true, "name": "sessionid", "path": "/", "sameSite": "Lax", "secure": true, "value": "2550147afabda2a9198fc3b3dc894fe4"}, {"domain": ".tiktok.com", "expiry": 1819582498, "httpOnly": true, "name": "tt-target-idc", "path": "/", "sameSite": "Lax", "secure": false, "value": "eu-ttp2"}]
